@@ -116,6 +116,23 @@
 .ex-11-icon {
     font-size: 60px;
 }
+.ex-11-icon:hover{
+    
+    animation-name: spin-half;
+    animation-duration: 2s;
+}
+@keyframes spin-half{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
