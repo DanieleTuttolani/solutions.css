@@ -90,9 +90,29 @@
     border-radius: 20px;
     scale: 1.5;
 }
+
+
+
+
 .ex-10-icon {
     font-size: 60px;
+    animation-name: spin;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    transition: linear;
+
 }
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(359deg);
+    }
+}
+
+
 .ex-11-icon {
     font-size: 60px;
 }
